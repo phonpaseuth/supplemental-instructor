@@ -1,0 +1,11 @@
+float RunningAvg(float value)
+{
+	static float sum = 0;
+	static float called = 0;
+	static float avg = 0;
+	
+	called++;
+	sum += value;
+	avg = sum/called;
+	return avg;
+}

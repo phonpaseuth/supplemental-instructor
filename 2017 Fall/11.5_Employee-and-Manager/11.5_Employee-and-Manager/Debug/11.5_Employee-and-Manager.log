@@ -1,0 +1,25 @@
+﻿  Manager.cpp
+  Main.cpp
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\employee.h(5): error C2011: 'Employee': 'class' type redefinition
+  c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\employee.h(5): note: see declaration of 'Employee'
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\manager.h(3): error C2504: 'Employee': base class undefined
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(16): error C2027: use of undefined type 'Employee'
+  c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\employee.h(5): note: see declaration of 'Employee'
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(19): error C2440: '=': cannot convert from 'Manager *' to 'Employee *'
+  c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(19): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(27): error C2027: use of undefined type 'Employee'
+  c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\employee.h(5): note: see declaration of 'Employee'
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(27): error C2227: left of '->getName' must point to class/struct/union/generic type
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(28): error C2027: use of undefined type 'Employee'
+  c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\employee.h(5): note: see declaration of 'Employee'
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(28): error C2227: left of '->getPayRate' must point to class/struct/union/generic type
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(31): error C2027: use of undefined type 'Employee'
+  c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\employee.h(5): note: see declaration of 'Employee'
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(31): error C2227: left of '->pay' must point to class/struct/union/generic type
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(37): error C2027: use of undefined type 'Employee'
+  c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\employee.h(5): note: see declaration of 'Employee'
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(37): error C2227: left of '->printPay' must point to class/struct/union/generic type
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(48): error C2027: use of undefined type 'Employee'
+  c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\employee.h(5): note: see declaration of 'Employee'
+c:\users\phonp\desktop\supplemental instructing\fall 2017\11.5_employee-and-manager\11.5_employee-and-manager\main.cpp(48): error C2228: left of '.pay' must have class/struct/union
+  Generating Code...
